@@ -16,7 +16,7 @@ Here's a very simple way to install:
 
 1. Download [whoops](https://github.com/filp/whoops/) OR use the provided "src" and "vendor" dirs (see 3.) from this repository.
 
-2. Use [Composer](http://getcomposer.org) to install Whoops:
+2. **If** you want to install yourself (and not use the provided "src" and "vendor" dirs), use [Composer](http://getcomposer.org) to install Whoops:
 
     Note: the proposed composer command for installing whoops didn't work for me:
     
@@ -33,11 +33,7 @@ Here's a very simple way to install:
     instead.
     In the end, either of these should create the "src" and "vendor" dirs for you.
     
-3. Upload
-    modules
-    src
-    vendor
-    to your shop root.
+3. Upload "/modules", "/src" and "/vendor" to your shop root.
 
 4. Activate the module in the shop backend.
 
