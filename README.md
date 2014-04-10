@@ -14,7 +14,7 @@ powerful stacked error handling system.
 ## Installing
 Here's a very simple way to install:
 
-1. Download [whoops](https://github.com/filp/whoops/) OR use the provided "src" and "vendor" dirs (see 3.) from this repository.
+1. Download [whoops](https://github.com/filp/whoops/) **OR** use the provided "src" and "vendor" dirs (see 3.) from this repository.
 
 2. **If** you want to install yourself (and not use the provided "src" and "vendor" dirs), use [Composer](http://getcomposer.org) to install Whoops:
 
@@ -40,4 +40,4 @@ Here's a very simple way to install:
 ## Authors
 
 This whoops library was primarily developed by [Filipe Dobreira](https://github.com/filp), and is currently maintained by [Denis Sokolov](https://github.com/denis-sokolov). A lot of awesome fixes and enhancements were also sent in by [various contributors](https://github.com/filp/whoops/contributors).
-The smx_whoops module for integrating whoops into OXID was developed by shoptimax GmbH, Gernot Payer and Stefan Moises.
+The smx_whoops module for integrating whoops into OXID was developed by shoptimax GmbH, Gernot Payer and [Stefan Moises](https://github.com/smxsm).
