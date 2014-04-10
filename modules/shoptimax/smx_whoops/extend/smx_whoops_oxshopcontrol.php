@@ -23,6 +23,9 @@ class smx_whoops_oxshopcontrol extends smx_whoops_oxshopcontrol_parent
      */
     protected function _setDefaultExceptionHandler()
     {
+        if (isset($this->_blHandlerSet)) {
+            return;
+        }
         if ( ($this->isAdmin() && $this->getUser()) || !oxRegistry::getConfig()->isProductiveMode() || $this->_isDebugMode() ) {
             // load Whoops
             require getShopBasePath() . 'vendor/autoload.php';
@@ -30,6 +33,9 @@ class smx_whoops_oxshopcontrol extends smx_whoops_oxshopcontrol_parent
             $this->_run = new Whoops\Run();
             $this->_run->pushHandler(new Whoops\Handler\PrettyPageHandler());
             $this->_run->register();
+        }
+        else {
+            parent::_setDefaultExceptionHandler();
         }
     }
     
