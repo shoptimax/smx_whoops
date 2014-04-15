@@ -24,7 +24,7 @@ $aModule = array(
         'en' => 'Whoops for OXID',
     ),
     'thumbnail'     => 'logo.png',
-    'version'       => '1.0.1',
+    'version'       => '1.0.2',
     'email'         => 'module@shoptimax.de',
     'author'        => 'shoptimax GmbH',
     'url'           => 'http://www.shoptimax.de/',

@@ -1,0 +1,19 @@
+smx_whoops
+-----------------------------
+-----------------------------
+
+1.0.2
+-----------------------------
+- added more exception handling, e.g. for system errors, cookie errors and template not found errors
+
+1.0.1
+-----------------------------
+- added db exception handling
+
+1.0.0 
+-----------------------------
+- initial release
+
+
+-----------------------------
+(c) shoptimax GmbH, 2014 - www.shoptimax.de
